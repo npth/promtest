@@ -1,1 +1,12 @@
 // app global css in SCSS form
+@font-face {
+  font-family: "raleway";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/Raleway-VariableFont_wght.ttf") format("truetype");
+  font-display: swap;
+}
+
+button .q_primary:hover {
+  background-color: #OA1A3E;
+}

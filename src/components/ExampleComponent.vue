@@ -9,6 +9,9 @@
     <p>Count: {{ todoCount }} / {{ meta.totalCount }}</p>
     <p>Active: {{ active ? 'yes' : 'no' }}</p>
     <p>Clicks on todos: {{ clickCount }}</p>
+
+    <q-btn color="primary" style="" label="Primary" />
+
   </div>
 </template>
 
