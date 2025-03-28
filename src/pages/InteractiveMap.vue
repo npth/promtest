@@ -19,7 +19,13 @@
         <q-btn flat color="accent" stack square no-caps size="sm" icon="work_outline">Выставки</q-btn>
       </div>
 
-      <q-btn color="accent" class="q-px-md" square no-caps>Витрина Кубани</q-btn>
+      <transition
+        appear
+        enter-active-class="animated pulse slower delay-5s repeat-2"
+        leave-active-class="animated pulse"
+      >
+        <q-btn color="accent" class="q-px-md" square no-caps>Витрина Кубани</q-btn>
+      </transition>
       <q-btn color="accent" class="" square outline>ru</q-btn>
       <q-btn color="accent" class="" square icon="visibility" ></q-btn>
 

@@ -46,6 +46,21 @@
         </q-card-section>
       </q-card>
     </div>
+
+    <transition
+      appear
+      enter-active-class="animated swing slower delay-5s repeat-3"
+      leave-active-class="animated fadeOut"
+    >
+      <!-- Wrapping only one DOM element, defined by QBtn -->
+      <q-btn
+        color="secondary"
+        icon="mail"
+        label="Email"
+      />
+    </transition>
+
+
   </div>
 </template>
 
